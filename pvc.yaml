@@ -2,7 +2,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: nginx-data
-  namespace: ${NAMESPACE}
+  namespace: nginx
 spec:
   accessModes:
     - ReadWriteMany
