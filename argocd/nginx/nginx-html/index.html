@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nginx Kubernetes NFS Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            text-align: center;
+            padding-top: 100px;
+        }
+        .container {
+            background: white;
+            width: 600px;
+            margin: auto;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px #ccc;
+        }
+        h1 {
+            color: #009639;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+<h1>Nginx Running on Kubernetes</h1>
+<p>
+This page is stored on an NFS Persistent Volume.
+</p>
+<p>
+NFS storage is shared between multiple Nginx pods.
+</p>
+<p>
+Managed using Kubernetes and Argo CD.
+</p>
+</div>
+</body>
+</html>
